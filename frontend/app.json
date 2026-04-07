@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Gestor de Tareas",
+    "slug": "gestor-tareas",
+    "version": "1.0.0",
+    "scheme": "gestor-tareas",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

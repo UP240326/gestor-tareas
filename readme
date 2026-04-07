@@ -1,0 +1,46 @@
+# Gestor de Tareas
+
+Aplicación móvil para gestión de tareas con React Native + Expo y backend en Express + TypeScript.
+
+## URL del Backend
+https://gestor-tareas-production-3a93.up.railway.app/
+## Endpoints disponibles
+
+| Método | Ruta | Descripción |
+|--------|------|-------------|
+| GET | /api/tasks | Obtener todas las tareas |
+| GET | /api/tasks/:id | Obtener una tarea |
+| POST | /api/tasks | Crear tarea |
+| PUT | /api/tasks/:id | Actualizar tarea |
+| DELETE | /api/tasks/:id | Eliminar tarea |
+| PATCH | /api/tasks/:id/toggle | Cambiar estado completed |
+
+## Cómo correr el proyecto
+
+### Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npx expo start
+```
+
+## Estructura del proyecto
+gestor-tareas/
+├── backend/   → API REST (Cristian)
+└── frontend/  → App React Native (Jorge, Leonardo, Abdell)
+
+## Ramas de trabajo
+
+| Rama | Responsable |
+|------|-------------|
+| feat/backend | Cristian |
+| feat/screens | Leonardo |
+| feat/forms | Jorge Emilio Garcia Rojas Muñoz |
+| feat/components | Abdell |

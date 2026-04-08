@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "scheme": "gestor-tareas",
     "orientation": "portrait",
-    "platforms": ["ios", "android"],
+    "platforms": ["ios", "android", "web"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
